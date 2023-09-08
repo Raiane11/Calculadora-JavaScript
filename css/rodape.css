@@ -1,0 +1,43 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    background: #93866b;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+  
+.rodape h3{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(60, 59, 59);
+}
+  
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+}
+  
+.icons ion-icon:hover{
+    color: #5a5343;
+}
+  
+@media screen and (max-width:850px){
+    .rodape{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: auto;
+       background: #93866b;
+       color: black;
+       left: 0;
+       right: 0;
+}
+}

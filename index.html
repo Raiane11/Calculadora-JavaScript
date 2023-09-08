@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <!--div para criar um input apenas de leitura e os botões da calc-->
+    <div class="calculadora">
+        <input type="text" name="result" placeholder="0" readonly>
+        <div class="buttonC">
+            <button type="button" onclick="clearAll('C')">C</button>
+        </div>
+        <button type="button" onclick="appendNumber('7')">7</button>
+        <button type="button" onclick="appendNumber('8')">8</button>
+        <button type="button" onclick="appendNumber('9')">9</button>
+        <button type="button" class="operator" onclick="setOperator('/')">/</button>
+        <button type="button" onclick="appendNumber('4')">4</button>
+        <button type="button" onclick="appendNumber('5')">5</button>
+        <button type="button" onclick="appendNumber('6')">6</button>
+        <button type="button" class="operator" onclick="setOperator('*')">x</button>
+        <button type="button" onclick="appendNumber('3')">3</button>
+        <button type="button" onclick="appendNumber('2')">2</button>
+        <button type="button" onclick="appendNumber('1')">1</button>
+        <button type="button" class="operator" onclick="setOperator('-')">-</button>
+        <button type="button" onclick="appendNumber('0')">0</button>
+        <button type="button" onclick="appendNumber('.')">.</button>
+        <button type="button" onclick="calculate('=')">=</button>
+        <button type="button" class="operator" onclick="setOperator('+')">+</button>
+    </div>
+
+    <footer class="rodape">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/raiane-gomes-b77462229/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/raigx/"  target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://github.com/Raiane11" target="_blank" ><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        <h3>Copyright © 2023 - Projeto desenvolvido por Raiane Gomes</h3>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
