@@ -1,10 +1,10 @@
-# Calculadora em JavaScript
+# 🖩 Calculadora em JavaScript
 Este é um projeto de uma calculadora simples feita com JavaScript, HTML e CSS. A calculadora permite realizar operações básicas como soma, subtração, multiplicação e divisão.
 
-## Como utilizar
-Para utilizar a calculadora, basta abrir o arquivo index.html em um navegador web. A interface da calculadora possui botões numéricos e operadores, assim como uma tela para exibir o resultado das operações.
+## Como utilizar:
+Para utilizar a calculadora, basta abrir o GitHub pages. A interface da calculadora possui botões numéricos e operadores, assim como uma tela para exibir o resultado das operações.
 
-## Funcionalidades
+## Funcionalidades:
 A calculadora suporta as seguintes operações:
 
 - Adição (+)
@@ -18,5 +18,6 @@ Limpar o resultado (botão "C")
 HTML
 CSS
 JavaScript
-Autor
+
+## Autor
 Esta calculadora foi desenvolvida por Raiane Gomes. Sinta-se à vontade para entrar em contato.
