@@ -15,9 +15,9 @@ Além disso, a calculadora também possui a seguinte funcionalidade:
 Limpar o resultado (botão "C")
 
 ## Tecnologias utilizadas:
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Autor
 Esta calculadora foi desenvolvida por Raiane Gomes. Sinta-se à vontade para entrar em contato.
